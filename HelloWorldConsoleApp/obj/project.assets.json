@@ -2278,10 +2278,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jasminefarley/Documents/csharpprojects/HelloWorld.Tests/HelloWorldConsoleApp/HelloWorldConsoleApp.csproj",
+      "projectUniqueName": "/Users/jasminefarley/Documents/csharpprojects/HelloWorld/HelloWorldConsoleApp/HelloWorldConsoleApp.csproj",
       "projectName": "HelloWorldConsoleApp",
-      "projectPath": "/Users/jasminefarley/Documents/csharpprojects/HelloWorld.Tests/HelloWorldConsoleApp/HelloWorldConsoleApp.csproj",
-      "outputPath": "/Users/jasminefarley/Documents/csharpprojects/HelloWorld.Tests/HelloWorldConsoleApp/obj",
+      "projectPath": "/Users/jasminefarley/Documents/csharpprojects/HelloWorld/HelloWorldConsoleApp/HelloWorldConsoleApp.csproj",
+      "outputPath": "/Users/jasminefarley/Documents/csharpprojects/HelloWorld/HelloWorldConsoleApp/obj",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp2.0"

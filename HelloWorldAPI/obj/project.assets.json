@@ -28886,10 +28886,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jasminefarley/Documents/csharpprojects/HelloWorld.Tests/HelloWorldAPI/HelloWorldAPI.csproj",
+      "projectUniqueName": "/Users/jasminefarley/Documents/csharpprojects/HelloWorld/HelloWorldAPI/HelloWorldAPI.csproj",
       "projectName": "HelloWorldAPI",
-      "projectPath": "/Users/jasminefarley/Documents/csharpprojects/HelloWorld.Tests/HelloWorldAPI/HelloWorldAPI.csproj",
-      "outputPath": "/Users/jasminefarley/Documents/csharpprojects/HelloWorld.Tests/HelloWorldAPI/obj",
+      "projectPath": "/Users/jasminefarley/Documents/csharpprojects/HelloWorld/HelloWorldAPI/HelloWorldAPI.csproj",
+      "outputPath": "/Users/jasminefarley/Documents/csharpprojects/HelloWorld/HelloWorldAPI/obj",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp2.0"

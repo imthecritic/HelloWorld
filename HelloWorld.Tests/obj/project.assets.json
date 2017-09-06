@@ -5689,10 +5689,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jasminefarley/Documents/csharpprojects/HelloWorld.Tests/HelloWorld.Tests/HelloWorld.Tests.csproj",
+      "projectUniqueName": "/Users/jasminefarley/Documents/csharpprojects/HelloWorld/HelloWorld.Tests/HelloWorld.Tests.csproj",
       "projectName": "HelloWorld.Tests",
-      "projectPath": "/Users/jasminefarley/Documents/csharpprojects/HelloWorld.Tests/HelloWorld.Tests/HelloWorld.Tests.csproj",
-      "outputPath": "/Users/jasminefarley/Documents/csharpprojects/HelloWorld.Tests/HelloWorld.Tests/obj",
+      "projectPath": "/Users/jasminefarley/Documents/csharpprojects/HelloWorld/HelloWorld.Tests/HelloWorld.Tests.csproj",
+      "outputPath": "/Users/jasminefarley/Documents/csharpprojects/HelloWorld/HelloWorld.Tests/obj",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp2.0"
