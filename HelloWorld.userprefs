@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{74DFF977-A6A3-4A02-8956-6C7210692AFC}|Unit Tests">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloWorldConsoleApp/Program.cs">
+    <Files>
+      <File FileName="HelloWorld.Tests/UnitTest1.cs" Line="1" Column="1" />
+      <File FileName="HelloWorldConsoleApp/Program.cs" Line="13" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.HelloWorld.Tests PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
