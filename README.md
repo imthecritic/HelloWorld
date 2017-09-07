@@ -1,3 +1,5 @@
+#(9/7/17) This is an incomplete solution, I will continue to work on the solution throughout the next day or two. 
+
 # HelloWorld
 
 ## Coding Exercise:
