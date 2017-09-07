@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 
-namespace HelloWorldAPI.Models
+namespace HelloWorld.API.Models
 {
 	public class UserContext : DbContext
 	{

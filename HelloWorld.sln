@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Tests", "HelloWorld.Tests\HelloWorld.Tests.csproj", "{74DFF977-A6A3-4A02-8956-6C7210692AFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldAPI", "HelloWorldAPI\HelloWorldAPI.csproj", "{767453D5-B880-4EDB-9AB0-353B53241929}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.API", "HelloWorldAPI\HelloWorld.API.csproj", "{767453D5-B880-4EDB-9AB0-353B53241929}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldConsoleApp", "HelloWorldConsoleApp\HelloWorldConsoleApp.csproj", "{4F62F1BC-3B68-4841-800C-70456DBFBB78}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.ConsoleApp", "HelloWorldConsoleApp\HelloWorld.ConsoleApp.csproj", "{4F62F1BC-3B68-4841-800C-70456DBFBB78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

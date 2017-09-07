@@ -1,5 +1,5 @@
 ﻿using System;
-namespace HelloWorldAPI.Models
+namespace HelloWorld.API.Models
 {
 	public class User
 	{

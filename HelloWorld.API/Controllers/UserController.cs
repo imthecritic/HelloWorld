@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
-using HelloWorldAPI.Models;
+using HelloWorld.API.Models;
 using System.Linq;
 
-namespace HelloWorldAPI.Controllers
+namespace HelloWorld.API.Controllers
 {
 	[Route("api/Users")]
 	public class UserController : Controller
@@ -22,10 +22,12 @@ namespace HelloWorldAPI.Controllers
                     firstName = "John",
                     lastName = "Doe",
                     email = "johndoe@email.com",
-                    birthdate = DateTime.Now });
+                    birthdate = new DateTime(1970,01,01) });
 				_context.SaveChanges();
 			}
 		}
+
+
 
 		[HttpGet]
 		public IEnumerable<User> GetAll()

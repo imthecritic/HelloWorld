@@ -2,6 +2,30 @@
   "version": 2,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
+      "Microsoft.AspNet.WebApi.Client/5.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "compile": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.3"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -29,7 +53,7 @@
           "lib/netstandard1.3/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.DotNet.PlatformAbstractions/1.1.0": {
+      "Microsoft.DotNet.PlatformAbstractions/1.0.3": {
         "type": "package",
         "dependencies": {
           "System.AppContext": "4.1.0",
@@ -48,10 +72,10 @@
           "lib/netstandard1.3/Microsoft.DotNet.PlatformAbstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyModel/1.1.0": {
+      "Microsoft.Extensions.DependencyModel/1.0.3": {
         "type": "package",
         "dependencies": {
-          "Microsoft.DotNet.PlatformAbstractions": "1.1.0",
+          "Microsoft.DotNet.PlatformAbstractions": "1.0.3",
           "Newtonsoft.Json": "9.0.1",
           "System.Diagnostics.Debug": "4.0.11",
           "System.Dynamic.Runtime": "4.0.11",
@@ -1504,7 +1528,7 @@
           "System.Runtime.Handles": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/System.Threading.ThreadPool.dll": {}
+          "ref/netstandard1.3/_._": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Threading.ThreadPool.dll": {}
@@ -1715,23 +1739,35 @@
         "runtime": {
           "lib/netstandard1.1/xunit.execution.dotnet.dll": {}
         }
-      },
-      "xunit.runner.visualstudio/2.2.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.DotNet.PlatformAbstractions": "1.1.0",
-          "Microsoft.Extensions.DependencyModel": "1.1.0",
-          "Microsoft.TestPlatform.ObjectModel": "11.0.0",
-          "NETStandard.Library": "1.6.0",
-          "System.Threading.ThreadPool": "4.0.10"
-        },
-        "build": {
-          "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
-        }
       }
     }
   },
   "libraries": {
+    "Microsoft.AspNet.WebApi.Client/5.2.3": {
+      "sha512": "3kiI8peSXbXHDDrRuo+QaX0iCEVRe0nvn2dBDRw656uPX32UalbBlSIDUDlJxu05eau4tnuhsikiUuugvvoUoQ==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.client/5.2.3",
+      "files": [
+        "lib/net45/System.Net.Http.Formatting.dll",
+        "lib/net45/System.Net.Http.Formatting.xml",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.dll",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.xml",
+        "microsoft.aspnet.webapi.client.5.2.3.nupkg.sha512",
+        "microsoft.aspnet.webapi.client.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Core/5.2.3": {
+      "sha512": "o90QYlRV8VKR1S7+EcJw9w8WSyVFLl+IIzN8ILZ+n2t6rsc/KS8kBxRzA7wCFPRUHhebCfLqilBk39phvanx3g==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.core/5.2.3",
+      "files": [
+        "Content/web.config.transform",
+        "lib/net45/System.Web.Http.dll",
+        "lib/net45/System.Web.Http.xml",
+        "microsoft.aspnet.webapi.core.5.2.3.nupkg.sha512",
+        "microsoft.aspnet.webapi.core.nuspec"
+      ]
+    },
     "Microsoft.CSharp/4.0.1": {
       "sha512": "17h8b5mXa87XYKrrVqdgZ38JefSUqLChUQpXgSnpzsM0nDOhE40FTeNWOJ/YmySGV6tG6T8+hjz6vxbknHJr6A==",
       "type": "package",
@@ -1789,26 +1825,28 @@
         "ref/xamarinwatchos10/_._"
       ]
     },
-    "Microsoft.DotNet.PlatformAbstractions/1.1.0": {
-      "sha512": "Bl6KYfbFSIW3QIRHAp931iR5h01qHjKghdpAtncwbzNUs0+IUZ+XfwkIU0sQsR33ufGvi3u4dZMIYYFysjpHAA==",
+    "Microsoft.DotNet.PlatformAbstractions/1.0.3": {
+      "sha512": "rF92Gp5L2asYrFNf0cKNBxzzGLh1krHuj6TRDk9wdjN2qdvJLaNYOn1s9oYkMlptYX436KiEFqxhLB+I5veXvQ==",
       "type": "package",
-      "path": "microsoft.dotnet.platformabstractions/1.1.0",
+      "path": "microsoft.dotnet.platformabstractions/1.0.3",
       "files": [
+        "lib/.DS_Store",
         "lib/net451/Microsoft.DotNet.PlatformAbstractions.dll",
         "lib/netstandard1.3/Microsoft.DotNet.PlatformAbstractions.dll",
-        "microsoft.dotnet.platformabstractions.1.1.0.nupkg.sha512",
+        "microsoft.dotnet.platformabstractions.1.0.3.nupkg.sha512",
         "microsoft.dotnet.platformabstractions.nuspec"
       ]
     },
-    "Microsoft.Extensions.DependencyModel/1.1.0": {
-      "sha512": "TG7dJ8GY1Myz9lZ8DJL4i6D05ncJQBi5CjBMXMdJ4edKxaW+vP2DndDd1jJabdMdmVRdGrvybzqkB+A6Df7eDw==",
+    "Microsoft.Extensions.DependencyModel/1.0.3": {
+      "sha512": "Z3o19EnheuegmvgpCzwoSlnCWxYA6qIUhvKJ7ifKHHvU7U+oYR/gliLiL3LVYOOeGMEEzkpJ5W67sOcXizGtlw==",
       "type": "package",
-      "path": "microsoft.extensions.dependencymodel/1.1.0",
+      "path": "microsoft.extensions.dependencymodel/1.0.3",
       "files": [
+        "lib/.DS_Store",
         "lib/net451/Microsoft.Extensions.DependencyModel.dll",
         "lib/netstandard1.3/Microsoft.Extensions.DependencyModel.dll",
         "lib/netstandard1.6/Microsoft.Extensions.DependencyModel.dll",
-        "microsoft.extensions.dependencymodel.1.1.0.nupkg.sha512",
+        "microsoft.extensions.dependencymodel.1.0.3.nupkg.sha512",
         "microsoft.extensions.dependencymodel.nuspec"
       ]
     },
@@ -5650,37 +5688,14 @@
         "xunit.extensibility.execution.2.2.0.nupkg.sha512",
         "xunit.extensibility.execution.nuspec"
       ]
-    },
-    "xunit.runner.visualstudio/2.2.0": {
-      "sha512": "CZimTpet23CeI2oXjDtICecAuEJ8Z4xSwNFY2tTKcGfm4IzKBrFmS3yzdqMMdAfiHYUgKlcyefflLOyO9ArKyQ==",
-      "type": "package",
-      "path": "xunit.runner.visualstudio/2.2.0",
-      "files": [
-        "build/_common/xunit.abstractions.dll",
-        "build/_common/xunit.runner.reporters.net452.dll",
-        "build/_common/xunit.runner.utility.net35.dll",
-        "build/_common/xunit.runner.visualstudio.testadapter.dll",
-        "build/net20/xunit.runner.visualstudio.props",
-        "build/netcoreapp1.0/xunit.runner.reporters.netstandard15.dll",
-        "build/netcoreapp1.0/xunit.runner.utility.netstandard15.dll",
-        "build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll",
-        "build/netcoreapp1.0/xunit.runner.visualstudio.props",
-        "build/uap10.0/xunit.runner.utility.netstandard11.dll",
-        "build/uap10.0/xunit.runner.visualstudio.props",
-        "build/uap10.0/xunit.runner.visualstudio.targets",
-        "build/uap10.0/xunit.runner.visualstudio.uwp.dll",
-        "build/uap10.0/xunit.runner.visualstudio.uwp.pri",
-        "xunit.runner.visualstudio.2.2.0.nupkg.sha512",
-        "xunit.runner.visualstudio.nuspec"
-      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "Microsoft.AspNet.WebApi.Core >= 5.2.3",
       "Microsoft.NET.Test.Sdk >= 15.3.0-preview-20170628-02",
       "Microsoft.NETCore.App >= 2.0.0",
-      "xunit >= 2.2.0",
-      "xunit.runner.visualstudio >= 2.2.0"
+      "xunit >= 2.2.0"
     ]
   },
   "packageFolders": {
@@ -5715,11 +5730,11 @@
             "target": "Package",
             "version": "15.3.0-preview-20170628-02"
           },
-          "xunit": {
+          "Microsoft.AspNet.WebApi.Core": {
             "target": "Package",
-            "version": "2.2.0"
+            "version": "5.2.3"
           },
-          "xunit.runner.visualstudio": {
+          "xunit": {
             "target": "Package",
             "version": "2.2.0"
           }
